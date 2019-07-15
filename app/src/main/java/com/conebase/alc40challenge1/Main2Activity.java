@@ -39,6 +39,7 @@ public class Main2Activity extends AppCompatActivity {
     }
     private void OnProfileClicked()
     {
-
+        Intent intent = new Intent ("android:name=android.intent.action.MyProfile");
+        startActivity(intent);
     }
 }

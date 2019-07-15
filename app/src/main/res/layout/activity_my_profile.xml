@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MyProfile" android:background="@drawable/alcbgc">
+
+    <TextView
+            android:text="Android Track"
+            android:layout_width="137dp"
+            android:layout_height="26dp"
+            android:id="@+id/txt_name5"
+            tools:layout_editor_absoluteX="127dp" tools:layout_editor_absoluteY="458dp"
+            android:fontFamily="@font/mclaren" android:textSize="18sp" android:textColor="@color/couleur_noire"/>
+    <ImageView
+            android:layout_width="341dp"
+            android:layout_height="325dp" app:srcCompat="@drawable/tof" tools:layout_editor_absoluteY="49dp"
+            tools:layout_editor_absoluteX="35dp" android:id="@+id/imageView"/>
+    <TextView
+            android:text="Lens Mutombo"
+            android:layout_width="230dp"
+            android:layout_height="42dp"
+            android:id="@+id/txt_name"
+            tools:layout_editor_absoluteX="90dp" tools:layout_editor_absoluteY="403dp"
+            android:fontFamily="@font/mclaren" android:textSize="30sp" android:textColor="@color/couleurBouton"/>
+    <TextView
+            android:text="Slack : Lens Mutombo"
+            android:layout_width="196dp"
+            android:layout_height="36dp"
+            android:id="@+id/txt_name2"
+            tools:layout_editor_absoluteX="107dp" tools:layout_editor_absoluteY="679dp"
+            android:fontFamily="@font/mclaren" android:textSize="18sp" android:textColor="@color/couleur_noire"/>
+    <TextView
+            android:text="+243977551835"
+            android:layout_width="134dp"
+            android:layout_height="36dp"
+            android:id="@+id/txt_name6"
+            tools:layout_editor_absoluteX="127dp" tools:layout_editor_absoluteY="623dp"
+            android:fontFamily="@font/mclaren" android:textSize="18sp" android:textColor="@color/couleur_noire"/>
+    <TextView
+            android:text="Democratic Republic of the Congo"
+            android:layout_width="314dp"
+            android:layout_height="24dp"
+            android:id="@+id/txt_name3"
+            tools:layout_editor_absoluteX="35dp" tools:layout_editor_absoluteY="499dp"
+            android:fontFamily="@font/mclaren" android:textSize="18sp" android:textColor="@color/couleur_noire"/>
+    <TextView
+            android:text="lensmutombo@outlook.com"
+            android:layout_width="250dp"
+            android:layout_height="32dp"
+            android:id="@+id/txt_name4"
+            tools:layout_editor_absoluteX="70dp" tools:layout_editor_absoluteY="553dp"
+            android:fontFamily="@font/mclaren" android:textSize="18sp" android:textColor="@color/couleur_noire"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
