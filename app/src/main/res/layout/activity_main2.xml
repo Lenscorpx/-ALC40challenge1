@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/oppo"
+        tools:context=".Main2Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+>
+
+    <TextView
+            android:id="@+id/welcomealc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to ALC 4.0"
+            android:textSize="40sp"
+            android:textColor="@color/couleur_blanche"
+            android:textAlignment="center"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <Button
+            android:id="@+id/btnaboutAndela"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="About ALC"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <Button
+            android:id="@+id/btnmyprofile"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="My Profile"
+            android:theme="@style/PrimaryButton"
+    />
+
+</LinearLayout>
