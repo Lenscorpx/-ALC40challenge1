@@ -27,6 +27,7 @@ public class AndelaWebview extends AppCompatActivity {
         WebSettings webSettings = webv.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webv.setWebViewClient(new WebViewClient());
+
     }
         public class myWebClient extends WebViewClient{
 

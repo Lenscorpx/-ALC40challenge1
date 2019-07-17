@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ALC40 Challenge Phase 1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ALC40challenge1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProfileUIAnimation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RepoALC40" vcs="Git" />
   </component>
 </project>

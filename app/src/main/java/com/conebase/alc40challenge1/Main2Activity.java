@@ -9,7 +9,7 @@ import android.os.Bundle;
 public class Main2Activity extends AppCompatActivity {
 
     private static Button aboutAndela;
-    private static Button myprofile;
+    private static Button myprofilex;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,23 +23,22 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
-        myprofile = (Button)findViewById(R.id.btnmyprofile);
-        myprofile.setOnClickListener(new View.OnClickListener() {
+        myprofilex = (Button)findViewById(R.id.btnmyprofile);
+        myprofilex.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                OnProfileClicked();
+                openActivity();
             }
         });
     }
-
     private void OnAboutClicked()
     {
-        Intent intent = new Intent("android.intent.action.AndelaWebview");
+        Intent intent = new Intent(this,AndelaWebview.class);
         startActivity(intent);
     }
-    private void OnProfileClicked()
+    private void openActivity()
     {
-        Intent intent = new Intent ("android:name=android.intent.action.MyProfile");
+        Intent intent = new Intent (this,ProfileUI.class);
         startActivity(intent);
     }
 }

@@ -6,5 +6,5 @@
     <color name="couleurBouton">#FEAF30</color>
     <color name="couleurApp">#3359DE</color>
     <color name="couleur_noire">#000</color>
-    <color name="couleur_blanche">#ffffff</color>
+    <color name="couleur_blanche">#fff</color>
 </resources>
